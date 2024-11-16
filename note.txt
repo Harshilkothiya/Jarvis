@@ -1,0 +1,1 @@
+recognizer = sr.Recognizer();   je pan boli aene recognize kare
