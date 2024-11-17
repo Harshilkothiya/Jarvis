@@ -10,7 +10,8 @@ from AppOpener import open, features, close
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
 
-newsapi = "188c9b33da0f4c909dc4616f31918c64"
+# make own api
+# newsapi = 
 
 
 def speak(text):
@@ -25,7 +26,8 @@ def aiProcess(command):
 
     client = Groq(
         # This is the default and can be omitted
-        api_key="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",
+        # make own api 
+        # api_key=,
     )
 
     chat_completion = client.chat.completions.create(
