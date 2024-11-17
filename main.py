@@ -94,7 +94,7 @@ def processCommand(c):
 
     # Get news
     elif "news" in c.lower():
-        r = requests.get("https://newsapi.org/v2/top-headlines?country=in&apiKey=188c9b33da0f4c909dc4616f31918c64")
+        r = requests.get(newsapi)
 
         if r.status_code == 200:
             data = r.json()
